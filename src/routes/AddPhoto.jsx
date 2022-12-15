@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { json, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const AddPhoto = () => {
   const [imageUrl, setImageUrl] = useState("");
